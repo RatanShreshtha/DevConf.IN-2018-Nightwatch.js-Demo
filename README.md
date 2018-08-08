@@ -12,36 +12,35 @@ Here is the directory tree for the project
 ```
 .
 ├── bin
-│   ├── selenium-server-standalone-3.13.0.jar
-│   └── webdrivers
-│       ├── chromedriver
-│       └── geckodriver
+│  ├── webdrivers
+│  │  ├── chromedriver
+│  │  └── geckodriver
+│  └── selenium-server-standalone-3.13.0.jar
 ├── custom-assertions
-│   └── elementCount.js
+│  └── elementCount.js
 ├── custom-commands
-│   └── hasOnBeforeUnload.js
+│  └── hasOnBeforeUnload.js
 ├── data
-│   └── searchKeywords.js
+│  └── searchKeywords.js
 ├── log
-│   └── selenium-debug.log
 ├── pages
-│   └── myBlog.js
+│  └── myBlog.js
 ├── reports
 ├── screenshots
 ├── tests
-│   ├── basicTests
-│   │   ├── 01_basicTest.js
-│   │   ├── 02_multiStepTest.js
-│   │   ├── 03_dataDrivenTest.js
-│   │   ├── 04_customAssertionTest.js
-│   │   └── 05_customCommandTest.js
-│   └── myBlog
-│       └── myBlog.js
+│  ├── basicTests
+│  │  ├── 01_basicTest.js
+│  │  ├── 02_multiStepTest.js
+│  │  ├── 03_dataDrivenTest.js
+│  │  ├── 04_customAssertionTest.js
+│  │  └── 05_customCommandTest.js
+│  └── myBlog
+│     └── myBlog.js
 ├── LICENSE
+├── README.md
 ├── nightwatch.js
 ├── nightwatch.json
-├── package.json
-└── README.md
+└── package.json
 ```
 ## Pre-Requisites
 - [Node.js](https://nodejs.org/en/download/)
